@@ -9,7 +9,6 @@ class Search extends Component {
     error: true
   };
   componentDidMount() {
-    console.log(6, this.props);
     const { match = {} } = this.props;
     if (match.params.name) {
       searchByName(
@@ -33,7 +32,6 @@ class Search extends Component {
     }
   }
   render() {
-    console.log(31, this.state);
     const { movie = {} } = this.state;
     return (
       <div>

@@ -1,4 +1,4 @@
-const api = 'http://www.omdbapi.com/?apikey=720184ec';
+const api = 'https://www.omdbapi.com/?apikey=720184ec';
 
 const headers = {
   Accept: 'application/json'

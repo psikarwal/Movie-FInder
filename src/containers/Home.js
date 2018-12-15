@@ -20,8 +20,6 @@ class Home extends Component {
 
   handleSubmit = event => {
     event.preventDefault();
-    console.log(6, event.target.id);
-    // this.props.add
     if (event.target.id === '1') {
       const url = `/byName/${this.state.name}/${this.state.plot1}/${
         this.state.year
@@ -39,8 +37,6 @@ class Home extends Component {
 
   render() {
     const searches = this.props.searches;
-    console.log(6, searches);
-
     return (
       <div
         id="masterDiv"

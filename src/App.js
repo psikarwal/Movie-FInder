@@ -17,8 +17,6 @@ class App extends Component {
   };
 
   render() {
-    console.log(19, this.state);
-
     return (
       <Switch>
         <Route
