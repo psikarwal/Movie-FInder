@@ -1,5 +1,6 @@
 {
   "projects": {
-    "staging": "moviee-finder"
+    "staging": "moviee-finder",
+    "default": "moviee-finder"
   }
 }
